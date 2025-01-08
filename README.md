@@ -22,3 +22,25 @@ This application is a user-friendly web interface for predicting the likelihood 
 
 # Installation and Setup
 - Step 1: Clone the repository:
+    - git clone <repository-url>
+    - cd <repository-folder>
+- Step 2: Install dependencies:
+    - Make Sure you have already installed all the required dependencies.
+- Step 3: Ensure the Models directory is populated:
+   - Place pre-trained models (diabetes_model.sav, heart_disease_model.sav, parkinsons_model.sav) in the Models directory.
+- Step 4: Run the application:
+   - streamlit run app.py
+
+# Usage
+1. Launch the app in your browser using the above command.
+2. Navigate through the sidebar to select the prediction type:
+  - Diabetes
+  - Heart Disease
+  - Parkinson's Disease
+3. Fill in the required input fields for the chosen disease.
+4. Click the "Get Test Result" button to view the prediction.
+
+# File Structure
+- app.py: Main application script.
+- Models/: Directory for storing pre-trained machine learning models.
+- Datasets/: Directory for all the required datasets
