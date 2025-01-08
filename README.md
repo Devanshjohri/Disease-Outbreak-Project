@@ -22,6 +22,7 @@ This application is a user-friendly web interface for predicting the likelihood 
 
 # Installation and Setup
 - Step 1: Clone the repository:
+    ```bash
     git clone <repository-url>
     cd <repository-folder>
 - Step 2: Install dependencies:
