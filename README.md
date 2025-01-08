@@ -30,6 +30,7 @@ This application is a user-friendly web interface for predicting the likelihood 
 - Step 3: Ensure the Models directory is populated:
    - Place pre-trained models (diabetes_model.sav, heart_disease_model.sav, parkinsons_model.sav) in the Models directory.
 - Step 4: Run the application:
+    ```bash
    - streamlit run app.py
 
 # Usage
