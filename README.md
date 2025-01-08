@@ -22,8 +22,8 @@ This application is a user-friendly web interface for predicting the likelihood 
 
 # Installation and Setup
 - Step 1: Clone the repository:
-    - git clone <repository-url>
-    - cd <repository-folder>
+    git clone <repository-url>
+    cd <repository-folder>
 - Step 2: Install dependencies:
     - Make Sure you have already installed all the required dependencies.
 - Step 3: Ensure the Models directory is populated:
